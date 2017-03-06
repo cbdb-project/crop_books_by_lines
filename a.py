@@ -1,5 +1,4 @@
 from PIL import Image
-import numpy
 import math
 
 im = Image.open('1.tif')
