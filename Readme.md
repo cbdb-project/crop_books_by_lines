@@ -2,7 +2,7 @@
 Still working...
 
 ## Description
-crop a image to several files by the lines or blanks on that page
+Crop a image to several files by the lines or blanks on that page
 
 ## Env and dependency
 python 3
