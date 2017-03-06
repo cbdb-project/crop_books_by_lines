@@ -1,18 +1,15 @@
-## description
-Compare the field names and the orders of field names between csv files and MS Access files
+## Notice
+Still working...
 
-The separator for csv is "\t"
+## Description
+crop a image to several files by the lines or blanks on that page
 
-## env and dependency
-python 2.7
+## Env and dependency
+python 3
 
-pyodbc
+PIL
 
-## basic usage
-1. put your csv files to ./text
-2. create a ODBC link to your MS Access file, default name is *new_lease*
-3. run compare.py
-
-## tips
-1. When the Access table field names include non-English characters, it might triggle a bug in pyodbc. When it happens, the program will print "please run it again". Please just run this py file again
-2. pyodbc works better in python 2 than 3 in my own experiment
+## Basic usage
+1. put your image files to ./input
+2. test and adjust the parameter(will complete later)
+3. run and get your output in ./output
