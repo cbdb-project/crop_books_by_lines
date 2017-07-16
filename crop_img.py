@@ -34,8 +34,8 @@ def crop_image(file_name,output_dir,input_dir):
     #print(height)
     #print(str(top_1) + "-" + str(top_2))
 
-    left_offset = 25
-    top_offset = 15
+    left_offset = 5
+    top_offset = 3
     
     left_img = im_jpg.crop((left_1+left_offset,top_1+top_offset,left_2-left_offset,top_2-top_offset))
     right_img = im_jpg.crop((left_2+left_offset,top_1+top_offset,left_3-left_offset,top_2-top_offset))
